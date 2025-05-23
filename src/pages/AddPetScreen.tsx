@@ -14,7 +14,7 @@ import { insertPet } from '../db/database';
 import { useNavigation } from '@react-navigation/native';
 import * as ImagePicker from 'react-native-image-picker';
 import DatePicker from 'react-native-date-picker';
-import { addPetStyles } from './styles/AddPet.styles'; // ✅ 스타일 import
+import { addPetStyles } from '../styles/AddPet.styles'; // ✅ 스타일 import
 
 const AddPetScreen = () => {
   const [name, setName] = useState('');

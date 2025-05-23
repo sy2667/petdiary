@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import { getSettingsStyles } from './styles/SettingsScreen.styles'; // 💡 함수형 스타일
+import { getSettingsStyles } from '../styles/SettingsScreen.styles'; // 💡 함수형 스타일
 import { ThemeContext } from '../theme/ThemeContext'; // 💡 테마 컨텍스트
 
 const SettingsScreen = () => {

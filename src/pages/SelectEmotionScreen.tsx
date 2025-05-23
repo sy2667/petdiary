@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { emotionStyles } from './styles/SelectEmotion.styles'; // ✅ 스타일 import
+import { emotionStyles } from '../styles/SelectEmotion.styles'; // ✅ 스타일 import
 
 type RootStackParamList = {
   SelectEmotion: {

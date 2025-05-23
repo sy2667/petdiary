@@ -24,7 +24,7 @@ import {
 import { Calendar, DateData } from 'react-native-calendars';
 import { openDatabase } from '../db/database';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { petCalendarStyles } from './styles/PetCalendar.styles';
+import { petCalendarStyles } from '../styles/PetCalendar.styles';
 
 // ✅ 아이콘 import 추가
 import Ionicons from 'react-native-vector-icons/Ionicons';

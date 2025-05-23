@@ -4,7 +4,7 @@ import { View, Text, FlatList, Image, TouchableOpacity } from 'react-native';
 import { openDatabase } from '../db/database';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { petListStyles } from './styles/PetList.styles';
+import { petListStyles } from '../styles/PetList.styles';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 interface Pet {

@@ -15,7 +15,7 @@ import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import * as ImagePicker from 'react-native-image-picker';
 import { upsertDiary } from '../db/database';
-import diaryStyles from './styles/DiaryWrite.styles';
+import diaryStyles from '../styles/DiaryWrite.styles';
 
 type RootStackParamList = {
   DiaryWrite: {

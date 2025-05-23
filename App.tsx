@@ -4,12 +4,12 @@ import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { ActivityIndicator, View, StyleSheet } from 'react-native';
 
-import AddPetScreen from './src/screens/AddPetScreen';
-import PetListScreen from './src/screens/PetListScreen';
-import PetCalendarScreen from './src/screens/PetCalendarScreen';
-import SelectEmotionScreen from './src/screens/SelectEmotionScreen';
-import DiaryWriteScreen from './src/screens/DiaryWriteScreen';
-import SettingsScreen from './src/screens/SettingsScreen';
+import AddPetScreen from './src/pages/AddPetScreen';
+import PetListScreen from './src/pages/PetListScreen';
+import PetCalendarScreen from './src/pages/PetCalendarScreen';
+import SelectEmotionScreen from './src/pages/SelectEmotionScreen';
+import DiaryWriteScreen from './src/pages/DiaryWriteScreen';
+import SettingsScreen from './src/pages/SettingsScreen';
 
 import { initDatabase } from './src/db/database';
 import { ThemeProvider, ThemeContext } from './src/theme/ThemeContext'; // ✅ 테마 context
